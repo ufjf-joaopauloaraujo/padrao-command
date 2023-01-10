@@ -33,7 +33,7 @@ class ControladorTest {
     }
 
     @Test
-    void deveCancelarFechamentoSemestre() {
+    void deveCancelarApagarLampada() {
         Tarefa ligarLampada = new TarefaLigarLampada(lampada);
         Tarefa apagarLampada = new TarefaDesligarLampada(lampada);
 
